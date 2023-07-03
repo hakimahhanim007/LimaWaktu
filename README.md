@@ -26,6 +26,9 @@ Contact Information
 If you have any questions, suggestions, or feedback, please feel free to reach out to me:
 
 Name: Hakimah Hanim
+
 Email: hakimahhanim00@gmail.com
+
 LinkedIn: https://www.linkedin.com/in/hakimah-hanim-454922250/
+
 Website:
