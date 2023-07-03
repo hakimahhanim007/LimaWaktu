@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_slide"
+    android:orientation="vertical"
+    tools:context=".isyak">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imgbtn_back"
+            android:layout_width="102dp"
+            android:layout_height="60dp"
+            android:layout_gravity="left"
+            android:background="#00FFFFFF"
+            android:foregroundGravity="left"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/background"
+            app:layout_constraintHorizontal_bias="0.372"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.042"
+            app:srcCompat="@drawable/back" />
+
+        <Space
+            android:layout_width="969dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/sound"
+            android:layout_width="120dp"
+            android:layout_height="62dp"
+            android:layout_gravity="right"
+            android:background="#00FFFFFF"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/sound" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="299dp"
+            android:layout_height="39dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tvlabelsolat"
+            android:layout_width="272dp"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="98dp"
+            android:layout_height="136dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/showslide"
+            android:layout_width="279dp"
+            android:layout_height="184dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.132"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.43"
+            app:srcCompat="@drawable/solat1_berdiritegak" />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="159dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageButton7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.278"
+            app:layout_constraintStart_toEndOf="@+id/background"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.829">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_bacaan"
+                    android:layout_width="236dp"
+                    android:layout_height="match_parent"
+
+                    android:fontFamily="sans-serif"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </ScrollView>
+
+        <Space
+            android:layout_width="94dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="99dp"
+            android:layout_height="33dp" />
+
+        <TextView
+            android:id="@+id/tv_label"
+            android:layout_width="254dp"
+            android:layout_height="match_parent"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:fadeScrollbars="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/showslide">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/btn_niat"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/background4"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/solat1_berdiritegak" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="22dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btn_takbir"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/background4"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/solat2_takbir" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="22dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btn_iftitah"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/background4"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/solat3_alfatihah" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="22dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btn_alfatihah"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/background4"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/solat3_alfatihah" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="22dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btn_rukuk1"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/background4"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/solat4_rukuk" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="22dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btn_iktidal1"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/background4"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/solat1_berdiritegak" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="22dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btn_sujud1"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/background4"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/solat5_sujud" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="22dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btn_duduk1"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/background4"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/solat6_duduk_a_2sujud" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="22dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btn_sujud12"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/background4"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/solat5_sujud" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="22dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btn_alfatihah2"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/background4"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/solat3_alfatihah" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="22dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btn_rukuk2"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/background4"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/solat4_rukuk" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="22dp"
+                android:layout_weight="1" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="22dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btn_iktidal2"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/background4"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/solat1_berdiritegak" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="22dp"
+                android:layout_weight="1" />
+
+
+            <ImageButton
+                android:id="@+id/btn_sujud2"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/background4"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/solat5_sujud" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="22dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btn_duduk2"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/background4"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/solat6_duduk_a_2sujud" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="22dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btn_sujud22"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/background4"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/solat5_sujud" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="22dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btn_tahiyatawal"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/background4"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/solat6_tahiyat_awal" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="22dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btn_alfatihah3"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/background4"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/solat3_alfatihah" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="22dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btn_rukuk3"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/background4"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/solat4_rukuk" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="22dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btn_iktidal3"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/background4"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/solat1_berdiritegak" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="22dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/sujud31"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/background4"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/solat5_sujud" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="22dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btn_duduk3"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/background4"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/solat6_duduk_a_2sujud" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="22dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btn_sujud32"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/background4"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/solat5_sujud" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="22dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btn_alfatihah4"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/background4"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/solat3_alfatihah" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="22dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btn_rukuk4"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/background4"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/solat4_rukuk" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="22dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btn_iktidal4"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/background4"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/solat1_berdiritegak" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="22dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/sujud41"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/background4"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/solat5_sujud" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="22dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btn_duduk4"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/background4"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/solat6_duduk_a_2sujud" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="22dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btn_sujud42"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/background4"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/solat5_sujud" />
+
+            <ImageButton
+                android:id="@+id/btn_tahiyatakhir"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/background4"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/solat7_tahiyat_akhir" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="22dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btn_salam"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/background4"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/solat8_salam" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="22dp"
+                android:layout_weight="1" />
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

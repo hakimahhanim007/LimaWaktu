@@ -1,0 +1,421 @@
+<resources>
+    <string name="app_name">Solat Time FYP</string>
+
+    <string name="niatSubuh">
+        <br>
+            أُصَلِّى فَرْضَ الْصُّبْحَ
+            \n\n
+            Usolli fardho subhi
+            \n\n
+            رَكْعَتَيْنِ أدَاءً لِلَّهِ تَعَالَى
+            \n\n
+            Rok\'ataini adaan lillahi taala
+        </br>
+    </string>
+
+    <string name="niatzuhur">
+        <br>
+             أُصَلِّى فَرْضَ الْظُّهْرَِ
+            \n\n
+            Usolli fardho zuhri
+            \n\n
+             أَرْبَع رَكَعَاتٍ
+            \n\n
+            Arba\'a Roka\'atin
+            \n\n
+            أدَاءً لِلَّهِ تَعَالَى
+            \n\n
+             Adaan lillahi ta\'ala
+        </br>
+    </string>
+
+    <string name="niatasar">
+        <br>
+            أُصَلِّى فَرْضَ الْعَصْرِ
+            \n\n
+            Usolli fardhol \'Asri
+            \n\n
+            أَرْبَعَ رَكَعَاتٍ
+            \n\n
+            Arba\'a roka\'atin
+            \n\n
+            أدَاءً لِلَّهِ تَعَالَى
+            \n\n
+            Adaan lilahi ta\'ala
+        </br>
+    </string>
+
+    <string name="niatmagrib">
+        <br>
+            أُصَلِّى فَرْضَ الْمَغْرِبِ
+            \n\n
+            Usolli fardhol maghribi
+            \n\n
+            ثلَاثَ رَكَعَاتٍ
+            \n\n
+            salaasa roka\'atin
+            \n\n
+            أدَاءً لِلَّهِ تَعَالَى
+            \n\n
+            Adaan lillahi ta\'ala
+
+        </br>
+    </string>
+
+    <string name="niatisyak">
+        <br>
+            أُصَلِّى فَرْضَ الْعِشَاءِ
+            \n\n
+             Usolli fardhol \'isyaa-i
+            \n\n
+            أَرْبَعَ رَكَعَاتٍ
+            \n\n
+            Arba\'a roka\'atin
+            \n\n
+            أدَاءً لِلَّهِ تَعَالَى
+            \n\n
+            Adaan lillahi ta\'ala
+        </br>
+    </string>
+
+    <string name="takbir">
+        <br>
+            <b>    الله اكْبَرُ</b>
+            \n\n
+            Allahu Akbar
+        </br>
+    </string>
+
+    <string name="alfatihah">
+        <br>
+
+            بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ
+            \n\n
+            Bismillahir rahmaanir rahiim
+            \n\n
+            ٱلۡحَمۡدُ لِلَّهِ رَبِّ ٱلۡعَـٰلَمِینَ
+            \n\n
+            Alhamdulillahi Rabbil \'Alamiin
+            \n\n
+            ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ
+            \n\n
+            Arrahmaanir rahiim
+            \n\n
+            مَـٰلِكِ یَوۡمِ ٱلدِّینِ
+            \n\n
+            Maalikiyau middiin
+            \n\n
+            إِیَّاكَ نَعۡبُدُ وَإِیَّاكَ نَسۡتَعِینُ
+            \n\n
+            Iyyaka na\'budu wa iyyaka nasta\'iin
+            \n\n
+            ٱهۡدِنَا ٱلصِّرَ ٰطَ ٱلۡمُسۡتَقِیمَ
+            \n\n
+            Ihdinas siroothol mustaqiim
+            \n\n
+            صِرَ ٰطَ ٱلَّذِینَ أَنۡعَمۡتَ عَلَیۡهِمۡ
+            \n\n
+            Siroothol lazii na an\'am ta \'alaihim
+            \n\n
+            غَیۡرِ ٱلۡمَغۡضُوبِ عَلَیۡهِمۡ وَلَا ٱلضَّاۤلِّینَ
+            \n\n
+            Ghairil magdhu bi \'alaihim
+            \n\n
+            Walad dha-alli-in
+        </br>
+    </string>
+
+    <string name="doaiftitah">
+        <br>
+
+            الله أَكْبَر كَبِيْرًا وَالْحَمْدُ لِلَّهِ كَثِيْرًا
+            \n\n
+            Allahu Akbar kabiro walhamdu lillahi kathiro
+            \n\n
+            وَسُبْحَان اللهِ بُكْرَةً وَأَصِلًا
+            \n\n
+            wasubhanallahi bukratau waasila
+            \n\n
+            و َجَّهْتُ وَجْهِيَ لِلَّذِيْ فَطَرَ الْسَّمَوَاتِ وَالْأَرْضَ
+            \n\n
+            Wajjahtu wajhia lillazi fathoros samaa waati wal ardh
+            \n\n
+             حَنِيفَاً مُسْلِمًا وَمَا أَنَا مِنَ الْمُشْرِكِيْنَ.
+            \n\n
+            hanifam muslimaw wama ana minal musyrikin
+            \n\n
+            إِنَّ صَلَاتِيْ وَنُسُكِيْ وَمَحْيَايَ وَمَمَاتِيْ لِلَّهِ رَبِّ الْعَالَمِينَ.
+            \n\n
+            Inna solati wanusuki wamahyaya wammamati lillahi rabbilalamin
+            \n\n
+            لَا شَرِيكَ لَهُ وَبِذَلِكَ أُمِرْتُ وَأَنَا مِنَ الْمُسْلِمِينَ.
+            \n\n
+            La syarikalahu wabiza lika umirtu wa ana minal muslimin
+        </br>
+    </string>
+
+    <string name="rukuk">
+        <br>
+            سُبْحَانَ رَبِّيَ الْعَظِمِ وَبِحَمْدِهِ 3x
+           \n\n
+            Subhana robbiyal \'aziimi wa bihamdih 3x
+
+
+        </br>
+    </string>
+
+    <string name="iktidal">
+        <br>
+            سَمِعَ اْللّٰهُ لِمَنْ حَمِدَهُ،
+           \n\n
+
+            sami\'allahu liman hamidah
+           \n\n
+
+            رَبَّنَا لَكَ الْحَمْدُ.
+           \n\n
+
+            robbana lakal hamd
+        </br>
+    </string>
+
+    <string name="sujud">
+        <br>
+            سُبْحَانَ رَبِّيَ الْأَعْلَى وَبِحَمْدِهِ
+             \n\n
+            Subhana robbiyal a\'la wa bihamdih 3x
+
+        </br>
+    </string>
+
+    <string name="dudukantaraduasujud">
+        <br>
+            رَبِّ اغْفِرْلِيْ وَارْحَمْنِي
+            \n\n
+            Robbighfir li warham ni
+            \n\m
+             وَاجْبُرْنِي وَارْفَع ْنِيْ
+            \n\n
+            Wajbur ni warfa\' ni
+            \n\n
+             وَارْزُقْنِيْ وَاهْدِنِيْ
+            \n\n
+            Warzuq ni Wahdi ni
+            \n\n
+             وَعَافِنِيْ وَاعْفُ عَنِّي
+            \n\n
+            Wa\'afini wa\'fu \'anni
+        </br>
+    </string>
+
+    <string name="tahiyatawal">
+        <br>
+
+           التَّحِيَّاتُ الْمُبَارَكَاتُ الْصَّلَوَاتُ الْطَّيِّبَاتُ لِلَّهِ،
+            \n\n
+            Attahiyyatul mubarokatus Solawatut thoyyibatu lillah
+            \n\n
+            الْسَّلَامُ عَلَيْكَ أَيُّهَا الْنَّبِيُّ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ،
+            \n\n
+            Assalaamu \'alaika ayyuhan nabiyyu wa rohmatullahi wabarokatuh
+            \n\n
+            الْسَّلَامُ عَلَيْنَا وَعَلَى عِبَدِ اللهِ الْصَّالِحِيْنَ،
+            \n\n
+            Assalamu \'alaina wa \'ala \'ibaadillahis solhihin
+            \n\n
+            أشْهَدُ أَنْ لَا إِلَـٰهَ إِلَّا اللهُ،
+            \n\n
+            Asyhadu an laa ilaha illallah
+            \n\n
+            وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُوْلُ اللهِ،
+             \n\n
+            Wa asyhadu anna Muhammadar Rasululllah
+            \n\n
+            اللَّهُمَّ صَلِّ عَلَـٰى مُحَمَّدٍ.
+            \n\n
+            Allahumma solli \'ala Muhammad
+        </br>
+    </string>
+
+    <string name="tahiyatakhir">
+        <br>
+
+           التَّحِيَّاتُ الْمُبَارَكَاتُ الْصَّلَوَاتُ الْطَّيِّبَاتُ لِلَّهِ،
+            \n\n
+            Attahiyyatul mubarokatus Solawatut thoyyibatu lillah
+            \n\n
+            الْسَّلَامُ عَلَيْكَ أَيُّهَا الْنَّبِيُّ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ،
+            \n\n
+            Assalaamu \'alaika ayyuhan nabiyyu wa rohmatullahi wabarokatuh
+            \n\n
+            الْسَّلَامُ عَلَيْنَا وَعَلَى عِبَدِ اللهِ الْصَّالِحِيْنَ،
+            \n\n
+            Assalamu \'alaina wa \'ala \'ibaadillahis solhihin
+            \n\n
+            أشْهَدُ أَنْ لَا إِلَـٰهَ إِلَّا اللهُ،
+            \n\n
+            Asyhadu an laa ilaha illallah
+            \n\n
+            وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُوْلُ اللهِ،
+             \n\n
+            Wa asyhadu anna Muhammadar Rasululllah
+            \n\n
+            اللَّهُمَّ صَلِّ عَلَـٰى مُحَمَّدٍ.
+            \n\n
+            Allahumma solli \'ala Muhammad
+            \n\n
+            وَعَلَـٰى آلِ مُحَمَّدٍ،
+            \n\n
+            Wa \'ala ali Muhammad
+            \n\n
+            كَمَا صَلَّيْتَ عَلٰى إِبْرَاهِيْمَ،
+            \n\n
+            Kama Sollaita \'ala ali Ibrahim
+            \n\n
+            وَعَلَـٰى آلِ إِبْرَاهِيْمَ،
+            \n\n
+            Wa\'ala ali Ibrahim
+            \n\n
+            وَبَارِكْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ،
+            \n\n
+            Wabaarik \'ala Muhammad wa \'ala ali Muhammad
+            \n\n
+            كَمَا بَارَكْتَ عَلٰى إِبْرَاهِيْمَ وَعَلَـٰى آلِ إِبْرَاهِيْمَ،
+            \n\n
+            Kama barokta ala Ibrahim wa \'ala ali Ibrahim
+            \n\n
+            فِى الْعَالَمِيْنَ إِنَّكَ حَمِيْدٌ مَجِيْدٌ.
+            \n\n
+            Fil\'aalamiina innaka Hamiidun majiid
+        </br>
+    </string>
+
+    <string name="salam">
+        <br>
+            السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ
+            \n\n
+            Assalamualaikum warahmatullah
+        </br>
+    </string>
+
+    <string name="qunut">
+        <br>
+            اللهمَّ اهدِنا فيمَن هدَيت
+            \n\n
+            Allahhummah dinii fiiman hadait
+            \n\n
+            وعافِنا فيمَن عافيت
+            \n\n
+            Wa\'a finii fiiman \'aafait
+            \n\n
+            وتولَّنا فيمَن تولَّيت،
+            /n/n
+            Watawallanii fiiman tawallaiit
+            \n\n
+            وباركْ لنا فيما أعطيت،
+            \n\n
+            Wabaarik lii fiimaa a\'thoit
+            \n\n
+            وقِنا شرَّ ما قضيت،
+            \n\n
+            Waqinii syarramaa qadhait
+            \n\n
+            إِنَّكَ تَقْضِي وَلَا يُقْضَى عَلَيْكَ،
+            \n\n
+            Fainnaka taqdhii walaa yuqdha alaik
+            \n\n
+            وَإِنَّهُ لَا يَذِلُّ مَنْ وَالَيْتَ،
+            \n\n
+            Wa innahu laa yazillu man walait
+            \n\n
+            وَلَا يَعِزُّ مَنْ عَادَيْتَ،
+            \n\n
+            Walaa ya \'izzu man aadait
+            \n\n
+            تَبَارَكْتَ رَبَّنَا وَتَعَالَيْتَ
+            \n\n
+            Tabaarokta robbana wata\'alait
+            \n\n
+            فَلَكَ الْحَمْدٌ عَلى ما قَضَيتَ
+            \n\n
+            Falakalhamdu \'alaa maaqadhait
+            \n\n
+            وَأَسْتَغْفِرُكَ وَأََتُوبُ إِلَيْكَ
+            \n\n
+            Astaghfiruka wa atuubu ilaik
+            \n\n
+            وَصلَّى اللهُ عَلىَ سَيًّدًنَا مُحَمَّدٍ النَّبِيِّ الأُمِّيِ
+            \n\n
+            Wasallallahu ala Sayyidina Muhammadin nabiyyil ummiyyi
+            \n\n
+            وَعَلَى آلِهِ وَصَحْبِهِ أَجْمَعِينَ
+            \n\n
+            Wa\'alaa aalihi wasohbihi Wasallam
+        </br>
+    </string>
+
+    <string name="makna">
+        <br>MAKNA</br>
+    </string>
+
+    <string name="tvniat">
+        <br>NIAT</br>
+    </string>
+
+
+    <string name="tvtakbir">
+        <br>TAKBIRATUL IHRAM</br>
+    </string>
+
+    <string name="tvalfatihah">
+        <br>MEMBACA AL-FATIHAH</br>
+    </string>
+
+    <string name="tvsurahpendek">
+        <br>MEMBACA SURAH PENDEK</br>
+    </string>
+
+    <string name="tvrukuk">
+        <br>RUKUK</br>
+    </string>
+
+    <string name="tviktidal">
+        <br>IKTIDAL</br>
+    </string>
+
+    <string name="tvsujud">
+        <br>SUJUD</br>
+    </string>
+
+    <string name="tvdudukantaraduasujud">
+        <br>DUDUK DIANTARA DUA SUJUD</br>
+    </string>
+
+    <string name="tvtahiyatawal">
+        <br>TAHIYAT AWAL</br>
+    </string>
+
+    <string name="tvtahiyatakhir">
+        <br>TAHIYAT AKHIR</br>
+    </string>
+
+    <string name="tvsalam">
+        <br>MEMBERI SALAM</br>
+    </string>
+
+    <string name="tvqunut">
+        <br>MEMBACA DOA QUNUT</br>
+    </string>
+
+    <string name="tviftitah">
+        <br>MEMBACA DOA IFTITAH</br>
+    </string>
+    <string name="waktu">
+        <br>waktu</br>
+    </string>
+    <string name="time">
+        <br>00.00.00</br>
+    </string>
+
+
+</resources>
