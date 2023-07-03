@@ -1,9 +1,11 @@
 # LimaWaktu
 
 Introduction
+
 Welcome to the repository of my final year project, Lima Waktu Application. This application is designed to assist Muslim children in learning and practicing the correct movements and readings associated with daily prayers, also known as Salah or Salat. It aims to provide an interactive and engaging platform that facilitates the learning process and helps children develop a strong foundation in Islamic prayer.
 
 Features
+
 The Muslim Kids Prayer Aid Application offers the following features:
 
 Step-by-step Guidance: The application provides a detailed, step-by-step guide for each prayer movement, including standing, bowing, prostration, and sitting positions. It offers visual representations and textual instructions to ensure children understand and perform the actions accurately.
@@ -18,11 +20,15 @@ Technologies Used
 Lima Waktu Application is developed using the following technologies:
 
 Programming Languages: Java
+
 Audio Playback: Audacity
+
 User Interface Design: Hand drawn by developer using Fire Alpaca
+
 Version Control: Git and GitHub
 
 Contact Information
+
 If you have any questions, suggestions, or feedback, please feel free to reach out to me:
 
 Name: Hakimah Hanim
