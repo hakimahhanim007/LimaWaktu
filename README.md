@@ -21,42 +21,6 @@ Programming Languages: Java
 Audio Playback: Audacity
 User Interface Design: Hand drawn by developer using Fire Alpaca
 Version Control: Git and GitHub
-Installation
-To run the Lima Waktu Application locally, follow these steps:
-
-Clone the repository to your local machine using the following command:
-
-bash
-Copy code:
-git clone https://github.com/your-username/your-repository.git
-Navigate to the project directory:
-
-bash
-Copy code
-cd your-repository
-Install the necessary dependencies using npm (Node Package Manager):
-
-Copy code
-npm install
-Start the application:
-
-sql
-Copy code
-npm start
-Access the application by visiting http://localhost:3000 in your web browser.
-
-Contributions
-Contributions to the Lima Waktu are welcome. If you would like to contribute to the project, please follow these steps:
-
-Fork the repository.
-Create a new branch for your feature or bug fix.
-Make your changes and commit them with descriptive commit messages.
-Push your changes to your forked repository.
-Submit a pull request, explaining the changes you have made.
-Please ensure that your contributions adhere to the project's coding standards and follow best practices.
-
-License
-The Muslim Kids Prayer Aid Application is licensed under the MIT License.
 
 Contact Information
 If you have any questions, suggestions, or feedback, please feel free to reach out to me:
